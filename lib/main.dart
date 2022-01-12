@@ -60,7 +60,7 @@ class MyQuizAppState extends State<MyQuizApp> {
       if (quiz.isFinished() == true) {
         Alert(
           context: context,
-          title: 'Quiz Finished!',
+          title: 'Finished!',
           desc: 'You\'ve reached the end of the quiz.',
         ).show();
 
